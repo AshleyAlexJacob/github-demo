@@ -1,2 +1,5 @@
-def sum(a, b):
-    return a + b
+def sum(my_list):
+    result = 0
+    for i in range(len(my_list)):
+        result+=my_list[i]
+    return result
